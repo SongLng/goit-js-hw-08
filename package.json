@@ -6,7 +6,7 @@
   "homepage": "https://SongLng.github.io/goit-js-hw-08",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-08npm/"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,8 @@
     "sass": "^1.32.8"
   },
   "dependencies": {
-    "lightbox": "^0.5.0"
+    "@vimeo/player": "^2.16.3",
+    "lightbox": "^0.5.0",
+    "lodash.throttle": "^4.1.1"
   }
 }
